@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+
+<div>
+      <div class="bg-body-tertiaryp-5 rounded">
+        <div class="col-sm-8 mx-auto">
+          <h1>Hello, Culinars!</h1>
+          <p>Explore a world of culinary delights with our extensive collection of recipes. Whether you're a seasoned chef or a novice cook, our platform offers a wide range of recipes to suit every taste and occasion. From mouthwatering appetizers to decadent desserts, we've got you covered!
+              Browse through our curated selection of recipes, each crafted with care and creativity. Discover new flavors, learn cooking techniques, and unleash your inner chef as you embark on a culinary adventure with us.
+             </p>
+            <h3>We have {{ num_recipes }} recipes from fellow crazy culinars!</h3>
+          <p>
+            <a class="btn btn-primary" href="/recipes" role="button">All Recipes</a>
+          </p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
